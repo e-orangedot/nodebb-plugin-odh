@@ -1,0 +1,33 @@
+{
+  "name": "nodebb-plugin-odh",
+  "version": "0.0.1",
+  "description": "NodeBB plugin",
+  "main": "library.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/e-orangedot/nodebb-plugin-odh"
+  },
+  "keywords": [
+    "nodebb",
+    "plugin",
+    "odh"
+  ],
+  "author": {
+    "name": "odh",
+    "email": "evgeny.dimitrov@orangedot.bg"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/e-orangedot/nodebb-plugin-odh/issues"
+  },
+  "readmeFilename": "README.md",
+  "nbbpm": {
+    "compatibility": "^1.0.0"
+  },
+  "dependencies": {
+    "mongo-sync": "~2.0.1",
+    "fibers": "~1.0.14",
+    "lodash": "~4.16.1"
+
+  }
+}
